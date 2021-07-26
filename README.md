@@ -20,7 +20,6 @@
 | 名称                | 作用                          |
 | -------             | --------                      |
 | blueman             | 蓝牙管理                      |
-| xfce4-power-manager | 电源管理（亮度调节）          |
 | rofi                | 查找软件                      |
 | alacritty           | 终端模拟器                    |
 | polybar             | 一个bar                       |

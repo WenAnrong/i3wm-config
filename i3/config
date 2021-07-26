@@ -187,7 +187,6 @@ bindsym $mod+r mode "resize"
 # other setting
 exec_always --no-startup-id picom
 exec_always --no-startup-id blueman-applet
-exec_always --no-startup-id xfce4-power-manager --daemon
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id v2raya
 exec_always --no-startup-id variety
@@ -199,3 +198,5 @@ new_window 1pixel
 bindsym $mod+c exec --no-startup-id firefox
 bindsym $mod+p exec --no-startup-id thunar
 bindsym $mod+Shift+s exec --no-startup-id deepin-screenshot
+bindsym XF86MonBrightnessUp exec light -A 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 10 # decrease screen brightness
