@@ -33,6 +33,7 @@
 | deepin-screenshot   | 截图工具                      |
 | v2ray-core          | v2ray后台服务                 |
 | v2rayA              | v2ray前台                     |
+| light               | 亮度调节                      |
 
 
 ### v2ray
