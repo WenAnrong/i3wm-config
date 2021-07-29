@@ -58,11 +58,10 @@ module-margin-right = 2
 
 font-0 = fixed:pixelsize=12;1
 font-1 = unifont:fontformat=truetype:size=12:antialias=false;0
-;font-2 = siji:pixelsize=12;1
 font-2 = JetBrainsMonoNL Nerd Font:style=Regular
 
 modules-left = i3 xwindow
-modules-right = filesystem backlight alsa pulseaudio xkeyboard memory cpu wlan battery date powermenu
+modules-right = filesystem backlight pulseaudio xkeyboard memory cpu wlan battery date powermenu
 
 tray-position = right
 tray-padding = 8
@@ -89,7 +88,7 @@ use-actual-brightness = true
 enable-scroll = true
 format =<label> <bar>
 label = %percentage%%
-bar-width = 10
+bar-width = 8
 bar-indicator = |
 bar-fill = ─
 bar-empty = ─
