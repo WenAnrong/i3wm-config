@@ -34,7 +34,7 @@
 | v2ray-core          | v2ray后台服务                 |
 | v2rayA              | v2ray前台                     |
 | light               | 亮度调节                      |
-
+| unifont-fonts       | polybar need the font         |
 
 ### v2ray
 
